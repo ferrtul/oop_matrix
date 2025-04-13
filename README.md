@@ -65,8 +65,8 @@ Apart from those operations, you also need to implement constructors and destruc
 | ---------- | ----------- |
 | `Matrix()` | A basic constructor that initialises a matrix of some predefined dimension. |  
 | `Matrix(int rows, int cols) ` | Parametrized constructor with number of rows and columns. |
-| `Matrix(const S21Matrix& other)` | Copy constructor. |
-| `Matrix(S21Matrix&& other)` | Move constructor. |
+| `Matrix(const Matrix& other)` | Copy constructor. |
+| `Matrix(Matrix&& other)` | Move constructor. |
 | `~Matrix()` | Destructor. |
 
 And you also need to overload the following operators, partly corresponding to the operations above:
